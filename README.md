@@ -1,4 +1,4 @@
-# Open Source Software
+# SCI
 Some scientific agent software.
 
 ## Windows关闭系统更新
