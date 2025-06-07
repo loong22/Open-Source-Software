@@ -1,21 +1,21 @@
 # SCI
 Some scientific agent software.
 
-## Windows关闭系统更新
+## Turn off system updates in Windows
 
-### 1. 打开注册表编辑器：
+### 1. Open the registry editor:
 
-按 Win + R，输入 regedit，按回车，同意UAC提示。
+Press Win + R, enter regedit, press Enter, and agree to the UAC prompt.
 
-### 2. 导航到指定路径：
+### 2. Navigate to the specified path:
 
-定位到: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+Locate: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
 
-### 3. 创建DWORD(32位)
+### 3. Create DWORD (32-bit)
 
-数值名称: FlightSettingsMaxPauseDays
-数值数据(十六进制): 5000
+Value name: FlightSettingsMaxPauseDays
+Value data (hexadecimal): 5000
 
-### 4. 关闭注册表编辑器
+### 4. Close the registry editor
 
-打开Windows设置->更新和安全->Windows更新->高级选项->暂停更新截至日期(拉到最下面的一个日期就行)->返回就可以看到更新将在[你选择的日期]后恢复
+Open Windows Settings->Update and Security->Windows Update->Advanced Options->Pause Updates until (just scroll to the bottom date)->Return to see that updates will resume after [your selected date]
